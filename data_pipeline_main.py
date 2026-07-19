@@ -1,27 +1,41 @@
+"""
+Master Entrypoint for RecoMart Recommendation System Data Management Pipeline.
+Orchestrates: Ingestion -> Validation -> Preparation -> Feature Store -> Data Versioning -> Model Training -> Inference.
+"""
+
+import sys
 import os
-import pandas as pd
-import logging # Import logging module
 
-# Define output directory for ingested data
-output_dir = "data_lake/transactions"
-os.makedirs(output_dir, exist_ok=True)
-logging.info(f"Ensured output directory '{output_dir}' exists.")
+# Auto-re-execute using ./venv/bin/python if launched with system python3
+venv_python = os.path.abspath(os.path.join(os.path.dirname(__file__), "venv", "bin", "python"))
+if os.path.exists(venv_python) and sys.executable != venv_python:
+    import subprocess
+    sys.exit(subprocess.call([venv_python] + sys.argv))
 
-# --- Call ingest_transaction_csv function ---
-transaction_csv_path = "input_data/transactions.csv"
-try:
-    logging.info(f"Calling ingest_transaction_csv with file_path='{transaction_csv_path}' and output_dir='{output_dir}'")
-    ingest_transaction_csv(transaction_csv_path, output_dir)
-except Exception as e:
-    logging.error(f"Error calling ingest_transaction_csv: {e}")
+import logging
+from src.orchestration.pipeline_orchestrator import PipelineOrchestrator
 
-# --- Call ingest_external_metadata_api function ---
-metadata_api_url = "https://external-api.com/" # Example public API
+def main():
+    print("================================================================")
+    print("   RecoMart Data Management & Recommendation Pipeline Execution  ")
+    print("================================================================")
+    
+    orchestrator = PipelineOrchestrator()
+    try:
+        results = orchestrator.run_full_pipeline()
+        print("\n================================================================")
+        print("                 PIPELINE STAGE SUMMARY TABLE                  ")
+        print("================================================================")
+        print(f"{'Stage Name':<30} | {'Status':<10} | {'Duration (s)':<12}")
+        print("-" * 60)
+        for stage, meta in results.items():
+            status_text = "PASS" if meta['status'] == "SUCCESS" else "FAIL"
+            print(f"{stage:<30} | {status_text:<10} | {meta['duration_sec']:<12}")
+        print("================================================================")
+        print("\nAll deliverables generated in 'reports/', 'docs/', and 'models/' directories.")
+    except Exception as e:
+        print(f"\nPipeline execution failed: {e}")
+        sys.exit(1)
 
-try:
-    logging.info(f"Calling ingest_external_metadata_api with api_url='{metadata_api_url}' and output_dir='{output_dir}'")
-    ingest_external_metadata_api(metadata_api_url, output_dir)
-except Exception as e:
-    logging.error(f"Error calling ingest_external_metadata_api: {e}")
-
-logging.info("Ingestion process initiated for both functions. Check the 'data_lake' directory and 'logs/ingestion.log' for details.")
+if __name__ == "__main__":
+    main()

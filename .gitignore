@@ -1,0 +1,38 @@
+# Python environment and cache
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+mlruns/
+
+# Dynamically generated datasets and database files
+data_lake/raw/
+data_lake/prepared/
+data_lake/manifests/
+data_lake/feature_store.db
+feature_store/feature_registry.json
+input_data/*.csv
+input_data/*.json
+*.csv
+*.db
+*.sqlite
+
+# Dynamically generated model artifacts
+models/*.pkl
+models/*.json
+
+# Dynamically generated reports, figures, and PDFs
+reports/*.pdf
+reports/*.json
+reports/*.md
+reports/figures/*.png
+
+# Execution logs
+logs/*.log
+*.log
+
+# System files
+.DS_Store
