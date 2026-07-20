@@ -33,3 +33,7 @@
 2026-07-20 22:17:47,277 - INFO - [feature_store.py:87] - Executing batch historical feature join for model training dataset...
 2026-07-20 22:17:47,280 - INFO - [feature_store.py:109] - Joined historical feature dataset shape: (1, 18)
 2026-07-20 22:17:48,072 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
+2026-07-20 22:22:51,388 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
+2026-07-20 22:22:55,311 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
+2026-07-20 22:28:35,511 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
+2026-07-20 22:28:39,450 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
