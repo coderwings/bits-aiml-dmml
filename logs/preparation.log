@@ -94,3 +94,17 @@
 2026-07-20 10:50:47,056 - INFO - [data_preparation.py:141] - Saved prepared users (200 rows) to 'data_lake/prepared/users_prepared.csv'
 2026-07-20 10:50:47,056 - INFO - [data_preparation.py:145] - Generating EDA visualization plots...
 2026-07-20 10:50:47,471 - INFO - [data_preparation.py:198] - EDA plots generated in 'reports/figures' (Sparsity: 82.03%)
+2026-07-20 22:17:38,629 - INFO - [data_preparation.py:43] - Preparing transactions from 'data_lake/raw/transactions/year=2026/month=07/day=20/transactions_20260720_221738.csv'
+2026-07-20 22:17:38,642 - INFO - [data_preparation.py:96] - Saved prepared transactions (1985 rows) to 'data_lake/prepared/transactions_prepared.csv'
+2026-07-20 22:17:38,643 - INFO - [data_preparation.py:101] - Preparing item metadata from 'data_lake/raw/metadata/year=2026/month=07/day=20/metadata_20260720_221738.json'
+2026-07-20 22:17:38,645 - INFO - [data_preparation.py:120] - Saved prepared items (50 rows) to 'data_lake/prepared/items_prepared.csv'
+2026-07-20 22:17:38,646 - INFO - [data_preparation.py:125] - Preparing user demographics from 'data_lake/raw/users/year=2026/month=07/day=20/users_20260720_221738.csv'
+2026-07-20 22:17:38,650 - INFO - [data_preparation.py:141] - Saved prepared users (200 rows) to 'data_lake/prepared/users_prepared.csv'
+2026-07-20 22:17:38,650 - INFO - [data_preparation.py:145] - Generating EDA visualization plots...
+2026-07-20 22:17:39,080 - INFO - [data_preparation.py:198] - EDA plots generated in 'reports/figures' (Sparsity: 82.03%)
+2026-07-20 22:17:47,250 - INFO - [data_preparation.py:43] - Preparing transactions from 'data_lake/raw/transactions/year=2026/month=07/day=20/transactions_20260720_221747.csv'
+2026-07-20 22:17:47,255 - INFO - [data_preparation.py:96] - Saved prepared transactions (285 rows) to 'data_lake/prepared/transactions_prepared.csv'
+2026-07-20 22:17:47,255 - INFO - [data_preparation.py:101] - Preparing item metadata from 'data_lake/raw/metadata/year=2026/month=07/day=20/metadata_20260720_221747.json'
+2026-07-20 22:17:47,257 - INFO - [data_preparation.py:120] - Saved prepared items (20 rows) to 'data_lake/prepared/items_prepared.csv'
+2026-07-20 22:17:47,257 - INFO - [data_preparation.py:125] - Preparing user demographics from 'data_lake/raw/users/year=2026/month=07/day=20/users_20260720_221747.csv'
+2026-07-20 22:17:47,259 - INFO - [data_preparation.py:141] - Saved prepared users (50 rows) to 'data_lake/prepared/users_prepared.csv'

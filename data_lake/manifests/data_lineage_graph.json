@@ -1,30 +1,35 @@
 {
     "pipeline": "RecoMart Recommendation Data Management Pipeline",
-    "last_updated": "2026-07-20T10:50:47.511195",
+    "dvc_enabled": true,
+    "last_updated": "2026-07-20T22:17:44.142465",
     "lineage_nodes": [
         {
             "id": "raw_transactions",
             "stage": "Data Ingestion",
             "source": "Clickstream CSV",
-            "target": "prepared_transactions"
+            "target": "prepared_transactions",
+            "dvc_tracked": true
         },
         {
             "id": "raw_metadata",
             "stage": "Data Ingestion",
             "source": "REST API / JSON Catalog",
-            "target": "prepared_items"
+            "target": "prepared_items",
+            "dvc_tracked": true
         },
         {
             "id": "prepared_transactions",
             "stage": "Data Preparation",
             "transformations": "Null imputation, rating clamping [1-5], datetime parsing, interaction weighting",
-            "target": "user_features & item_cooccurrence"
+            "target": "user_features & item_cooccurrence",
+            "dvc_tracked": true
         },
         {
             "id": "prepared_items",
             "stage": "Data Preparation",
             "transformations": "MinMax price scaling, sentiment normalization, brand categorical encoding",
-            "target": "item_features"
+            "target": "item_features",
+            "dvc_tracked": true
         },
         {
             "id": "feature_store_db",
@@ -34,13 +39,15 @@
                 "item_features",
                 "item_cooccurrence"
             ],
-            "target": "recommendation_model_training"
+            "target": "recommendation_model_training",
+            "dvc_tracked": true
         },
         {
             "id": "svd_model_artifact",
             "stage": "Model Training",
             "algorithm": "Matrix Factorization SVD + Content-Based Filtering",
-            "target": "inference_api"
+            "target": "inference_api",
+            "dvc_tracked": true
         }
     ]
 }

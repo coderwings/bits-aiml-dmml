@@ -2,10 +2,13 @@
     "dataset_name": "items",
     "stage": "prepared",
     "file_path": "data_lake/prepared/items_prepared.csv",
+    "dvc_tracked": true,
+    "dvc_file": "data_lake/prepared/items_prepared.csv.dvc",
     "md5_checksum": "8ea11229165dcfe273ff2a94eadcda66",
+    "dvc_md5": "8ea11229165dcfe273ff2a94eadcda66",
     "size_bytes": 5696,
     "row_count": 50,
     "transform_applied": "MinMax Scaling & Sentiment Normalization",
-    "timestamp": "2026-07-20T10:50:47.510527",
-    "version_tag": "v1.1784524847"
+    "timestamp": "2026-07-20T22:17:43.363412",
+    "version_tag": "v1.1784566063"
 }

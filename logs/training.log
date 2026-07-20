@@ -58,3 +58,13 @@
 2026-07-20 10:50:47,624 - INFO - [train_evaluation.py:131] - Model Evaluation Metrics (@K=5): {'RMSE': 2.8064, 'MAE': 2.5917, 'Precision@K': 0.0434, 'Recall@K': 0.117, 'NDCG@K': 0.0792}
 2026-07-20 10:50:48,690 - INFO - [train_evaluation.py:173] - Successfully tracked model run to MLflow experiment.
 2026-07-20 10:50:48,693 - INFO - [train_evaluation.py:221] - Generated Model Performance reports in 'reports'
+2026-07-20 22:17:44,142 - INFO - [train_evaluation.py:100] - Loading prepared datasets for model training...
+2026-07-20 22:17:44,147 - INFO - [train_evaluation.py:106] - Dataset split: Train shape (1588, 15), Test shape (397, 15)
+2026-07-20 22:17:44,194 - INFO - [train_evaluation.py:131] - Model Evaluation Metrics (@K=5): {'RMSE': 2.8064, 'MAE': 2.5917, 'Precision@K': 0.0434, 'Recall@K': 0.117, 'NDCG@K': 0.0792}
+2026-07-20 22:17:45,218 - INFO - [train_evaluation.py:173] - Successfully tracked model run to MLflow experiment.
+2026-07-20 22:17:45,221 - INFO - [train_evaluation.py:221] - Generated Model Performance reports in 'reports'
+2026-07-20 22:17:47,280 - INFO - [train_evaluation.py:100] - Loading prepared datasets for model training...
+2026-07-20 22:17:47,282 - INFO - [train_evaluation.py:106] - Dataset split: Train shape (228, 15), Test shape (57, 15)
+2026-07-20 22:17:47,297 - INFO - [train_evaluation.py:131] - Model Evaluation Metrics (@K=3): {'RMSE': 2.4966, 'MAE': 2.1828, 'Precision@K': 0.125, 'Recall@K': 0.2014, 'NDCG@K': 0.1842}
+2026-07-20 22:17:48,069 - INFO - [train_evaluation.py:173] - Successfully tracked model run to MLflow experiment.
+2026-07-20 22:17:48,072 - INFO - [train_evaluation.py:221] - Generated Model Performance reports in 'reports'

@@ -2,10 +2,13 @@
     "dataset_name": "transactions",
     "stage": "raw",
     "file_path": "data_lake/raw/transactions/year=2026/month=07/day=20/transactions_20260720_105046.csv",
+    "dvc_tracked": true,
+    "dvc_file": "data_lake/raw/transactions/year=2026/month=07/day=20/transactions_20260720_105046.csv.dvc",
     "md5_checksum": "c90ad01f334f18affdb8b3851adf3bf3",
+    "dvc_md5": "c90ad01f334f18affdb8b3851adf3bf3",
     "size_bytes": 178979,
     "row_count": 2000,
     "transform_applied": "Raw Batch CSV Ingestion",
-    "timestamp": "2026-07-20T10:50:47.506362",
-    "version_tag": "v1.1784524847"
+    "timestamp": "2026-07-20T22:17:41.822690",
+    "version_tag": "v1.1784566061"
 }

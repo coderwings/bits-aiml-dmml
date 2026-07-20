@@ -2,10 +2,13 @@
     "dataset_name": "transactions",
     "stage": "prepared",
     "file_path": "data_lake/prepared/transactions_prepared.csv",
+    "dvc_tracked": true,
+    "dvc_file": "data_lake/prepared/transactions_prepared.csv.dvc",
     "md5_checksum": "a8070663a81d3ea06198a674413ca08c",
+    "dvc_md5": "a8070663a81d3ea06198a674413ca08c",
     "size_bytes": 234321,
     "row_count": 1985,
     "transform_applied": "Data Cleaning & Categorical Encoding",
-    "timestamp": "2026-07-20T10:50:47.509479",
-    "version_tag": "v1.1784524847"
+    "timestamp": "2026-07-20T22:17:42.593505",
+    "version_tag": "v1.1784566062"
 }
