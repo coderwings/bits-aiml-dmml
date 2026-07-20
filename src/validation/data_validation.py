@@ -167,6 +167,24 @@ class DataValidator:
             for name, details in meta_report["checks"].items():
                 f.write(f"| {name} | {details['status']} | {json.dumps(details)} |\n")
 
+        # Build detailed validation table rows for PDF
+        tx_table_rows = []
+        for k, v in tx_report["checks"].items():
+            count_val = (
+                v.get("invalid_timestamp_count") or
+                v.get("null_row_count") or
+                v.get("duplicate_count") or
+                v.get("invalid_price_count") or
+                v.get("invalid_rating_count") or
+                0
+            )
+            tx_table_rows.append([k, v["status"], str(count_val)])
+
+        meta_table_rows = []
+        for k, v in meta_report["checks"].items():
+            count_val = v.get("invalid_price_count") or 0
+            meta_table_rows.append([k, v["status"], str(count_val)])
+
         # PDF Report Generation via ReportLab
         pdf_sections = [
             {
@@ -175,17 +193,11 @@ class DataValidator:
             },
             {
                 "heading": "2. Transactions Dataset Validation Matrix",
-                "table_data": [["Check Name", "Status", "Anomaly Count / Details"]] + [
-                    [k, v["status"], str(v.get("invalid_rating_count", v.get("null_row_count", v.get("duplicate_count", 0))))]
-                    for k, v in tx_report["checks"].items()
-                ]
+                "table_data": [["Check Name", "Status", "Anomaly Count / Details"]] + tx_table_rows
             },
             {
                 "heading": "3. Metadata Dataset Validation Matrix",
-                "table_data": [["Check Name", "Status", "Anomaly Count / Details"]] + [
-                    [k, v["status"], str(v.get("invalid_price_count", 0))]
-                    for k, v in meta_report["checks"].items()
-                ]
+                "table_data": [["Check Name", "Status", "Anomaly Count / Details"]] + meta_table_rows
             }
         ]
         create_pdf_report("data_quality_report.pdf", "RecoMart Data Quality & Profiling Report", "Data Validation & Anomaly Detection Results", pdf_sections, output_dir)

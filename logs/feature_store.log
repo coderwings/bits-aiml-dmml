@@ -37,3 +37,17 @@
 2026-07-20 22:22:55,311 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
 2026-07-20 22:28:35,511 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
 2026-07-20 22:28:39,450 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
+2026-07-20 22:34:17,906 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
+2026-07-20 22:34:22,387 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
+2026-07-20 22:34:24,247 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
+2026-07-20 22:34:24,248 - INFO - [feature_store.py:87] - Executing batch historical feature join for model training dataset...
+2026-07-20 22:34:24,251 - INFO - [feature_store.py:109] - Joined historical feature dataset shape: (1, 18)
+2026-07-20 22:34:25,080 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
+2026-07-20 22:34:46,133 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
+2026-07-20 22:34:49,833 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
+2026-07-20 22:37:36,964 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
+2026-07-20 22:37:36,965 - INFO - [feature_store.py:87] - Executing batch historical feature join for model training dataset...
+2026-07-20 22:37:36,967 - INFO - [feature_store.py:109] - Joined historical feature dataset shape: (1, 18)
+2026-07-20 22:37:37,764 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
+2026-07-20 22:38:40,964 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'
+2026-07-20 22:38:44,638 - INFO - [feature_store.py:62] - Feature Store registry synced at 'feature_store/feature_registry.json'

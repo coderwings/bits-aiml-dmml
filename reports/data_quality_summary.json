@@ -1,8 +1,8 @@
 {
-    "timestamp": "2026-07-20T22:28:35.045110",
+    "timestamp": "2026-07-20T22:38:40.514422",
     "transactions": {
         "dataset": "transactions",
-        "file_path": "data_lake/raw/transactions/year=2026/month=07/day=20/transactions_20260720_222834.csv",
+        "file_path": "data_lake/raw/transactions/year=2026/month=07/day=20/transactions_20260720_223840.csv",
         "total_records": 2000,
         "checks": {
             "schema_check": {
@@ -13,12 +13,12 @@
                 "status": "WARNING",
                 "null_row_count": 5,
                 "null_column_breakdown": {
-                    "purchase_price": 0,
-                    "purchase_time": 0,
-                    "item_id": 0,
                     "quantity": 0,
+                    "transaction_id": 0,
+                    "purchase_time": 0,
                     "user_id": 5,
-                    "transaction_id": 0
+                    "purchase_price": 0,
+                    "item_id": 0
                 }
             },
             "duplicate_check": {
@@ -39,7 +39,7 @@
     },
     "metadata": {
         "dataset": "metadata",
-        "file_path": "data_lake/raw/metadata/year=2026/month=07/day=20/metadata_20260720_222834.json",
+        "file_path": "data_lake/raw/metadata/year=2026/month=07/day=20/metadata_20260720_223840.json",
         "total_records": 50,
         "checks": {
             "schema_check": {

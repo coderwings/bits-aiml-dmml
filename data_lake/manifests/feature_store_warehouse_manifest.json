@@ -4,11 +4,11 @@
     "file_path": "data_lake/feature_store.db",
     "dvc_tracked": true,
     "dvc_file": "data_lake/feature_store.db.dvc",
-    "md5_checksum": "650d5e4299f1cda78f20a5806e989657",
-    "dvc_md5": "650d5e4299f1cda78f20a5806e989657",
+    "md5_checksum": "01090563b3326699d45d0af27c839261",
+    "dvc_md5": "01090563b3326699d45d0af27c839261",
     "size_bytes": 110592,
     "row_count": null,
     "transform_applied": "SQLite Aggregation Feature Store",
-    "timestamp": "2026-07-20T22:28:38.536269",
-    "version_tag": "v1.1784566718"
+    "timestamp": "2026-07-20T22:38:43.865453",
+    "version_tag": "v1.1784567323"
 }

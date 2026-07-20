@@ -18,8 +18,9 @@ from src.model.inference import RecommendationInferenceService
 
 @pytest.fixture(scope="module", autouse=True)
 def setup_environment():
-    """Ensure synthetic data is generated before tests run."""
-    generate_synthetic_data(num_users=50, num_items=20, num_interactions=300)
+    """Ensure input data exists before tests run without overwriting static input files."""
+    if not os.path.exists("input_data/transactions.csv"):
+        generate_synthetic_data(num_users=50, num_items=20, num_interactions=300)
 
 
 def test_data_ingestion():
