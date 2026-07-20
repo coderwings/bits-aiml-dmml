@@ -1,0 +1,96 @@
+2026-07-19 20:40:25,412 - INFO - [data_preparation.py:43] - Preparing transactions from 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204025.csv'
+2026-07-19 20:40:25,420 - INFO - [data_preparation.py:69] - Saved prepared transactions (1985 rows) to 'data_lake/prepared/transactions_prepared.csv'
+2026-07-19 20:40:25,421 - INFO - [data_preparation.py:74] - Preparing item metadata from 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204025.json'
+2026-07-19 20:40:25,423 - INFO - [data_preparation.py:93] - Saved prepared items (50 rows) to 'data_lake/prepared/items_prepared.csv'
+2026-07-19 20:40:25,423 - INFO - [data_preparation.py:98] - Preparing user demographics from 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_204025.csv'
+2026-07-19 20:40:25,425 - INFO - [data_preparation.py:114] - Saved prepared users (200 rows) to 'data_lake/prepared/users_prepared.csv'
+2026-07-19 20:40:25,425 - INFO - [data_preparation.py:118] - Generating EDA visualization plots...
+2026-07-19 20:40:26,337 - INFO - [data_preparation.py:171] - EDA plots generated in 'reports/figures' (Sparsity: 81.98%)
+2026-07-19 20:40:32,227 - INFO - [data_preparation.py:43] - Preparing transactions from 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204032.csv'
+2026-07-19 20:40:32,230 - INFO - [data_preparation.py:69] - Saved prepared transactions (285 rows) to 'data_lake/prepared/transactions_prepared.csv'
+2026-07-19 20:40:32,230 - INFO - [data_preparation.py:74] - Preparing item metadata from 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204032.json'
+2026-07-19 20:40:32,232 - INFO - [data_preparation.py:93] - Saved prepared items (20 rows) to 'data_lake/prepared/items_prepared.csv'
+2026-07-19 20:40:32,233 - INFO - [data_preparation.py:98] - Preparing user demographics from 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_204032.csv'
+2026-07-19 20:40:32,234 - INFO - [data_preparation.py:114] - Saved prepared users (50 rows) to 'data_lake/prepared/users_prepared.csv'
+2026-07-19 20:41:02,072 - INFO - [data_preparation.py:43] - Preparing transactions from 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204102.csv'
+2026-07-19 20:41:02,076 - INFO - [data_preparation.py:69] - Saved prepared transactions (285 rows) to 'data_lake/prepared/transactions_prepared.csv'
+2026-07-19 20:41:02,076 - INFO - [data_preparation.py:74] - Preparing item metadata from 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204102.json'
+2026-07-19 20:41:02,079 - INFO - [data_preparation.py:93] - Saved prepared items (20 rows) to 'data_lake/prepared/items_prepared.csv'
+2026-07-19 20:41:02,079 - INFO - [data_preparation.py:98] - Preparing user demographics from 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_204102.csv'
+2026-07-19 20:41:02,081 - INFO - [data_preparation.py:114] - Saved prepared users (50 rows) to 'data_lake/prepared/users_prepared.csv'
+2026-07-19 20:41:02,081 - INFO - [data_preparation.py:118] - Generating EDA visualization plots...
+2026-07-19 20:41:02,479 - INFO - [data_preparation.py:171] - EDA plots generated in 'reports/figures' (Sparsity: 75.90%)
+2026-07-19 20:41:09,206 - INFO - [data_preparation.py:43] - Preparing transactions from 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204109.csv'
+2026-07-19 20:41:09,210 - INFO - [data_preparation.py:69] - Saved prepared transactions (285 rows) to 'data_lake/prepared/transactions_prepared.csv'
+2026-07-19 20:41:09,210 - INFO - [data_preparation.py:74] - Preparing item metadata from 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204109.json'
+2026-07-19 20:41:09,212 - INFO - [data_preparation.py:93] - Saved prepared items (20 rows) to 'data_lake/prepared/items_prepared.csv'
+2026-07-19 20:41:09,212 - INFO - [data_preparation.py:98] - Preparing user demographics from 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_204109.csv'
+2026-07-19 20:41:09,214 - INFO - [data_preparation.py:114] - Saved prepared users (50 rows) to 'data_lake/prepared/users_prepared.csv'
+2026-07-19 20:44:24,105 - INFO - [data_preparation.py:43] - Preparing transactions from 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204424.csv'
+2026-07-19 20:44:24,109 - INFO - [data_preparation.py:69] - Saved prepared transactions (285 rows) to 'data_lake/prepared/transactions_prepared.csv'
+2026-07-19 20:44:24,109 - INFO - [data_preparation.py:74] - Preparing item metadata from 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204424.json'
+2026-07-19 20:44:24,112 - INFO - [data_preparation.py:93] - Saved prepared items (20 rows) to 'data_lake/prepared/items_prepared.csv'
+2026-07-19 20:44:24,112 - INFO - [data_preparation.py:98] - Preparing user demographics from 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_204424.csv'
+2026-07-19 20:44:24,114 - INFO - [data_preparation.py:114] - Saved prepared users (50 rows) to 'data_lake/prepared/users_prepared.csv'
+2026-07-19 20:44:24,114 - INFO - [data_preparation.py:118] - Generating EDA visualization plots...
+2026-07-19 20:44:24,516 - INFO - [data_preparation.py:171] - EDA plots generated in 'reports/figures' (Sparsity: 75.90%)
+2026-07-19 20:44:42,390 - INFO - [data_preparation.py:43] - Preparing transactions from 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204442.csv'
+2026-07-19 20:44:42,395 - INFO - [data_preparation.py:69] - Saved prepared transactions (285 rows) to 'data_lake/prepared/transactions_prepared.csv'
+2026-07-19 20:44:42,395 - INFO - [data_preparation.py:74] - Preparing item metadata from 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204442.json'
+2026-07-19 20:44:42,397 - INFO - [data_preparation.py:93] - Saved prepared items (20 rows) to 'data_lake/prepared/items_prepared.csv'
+2026-07-19 20:44:42,398 - INFO - [data_preparation.py:98] - Preparing user demographics from 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_204442.csv'
+2026-07-19 20:44:42,399 - INFO - [data_preparation.py:114] - Saved prepared users (50 rows) to 'data_lake/prepared/users_prepared.csv'
+2026-07-19 20:44:42,399 - INFO - [data_preparation.py:118] - Generating EDA visualization plots...
+2026-07-19 20:44:42,793 - INFO - [data_preparation.py:171] - EDA plots generated in 'reports/figures' (Sparsity: 75.90%)
+2026-07-19 20:46:27,707 - INFO - [data_preparation.py:43] - Preparing transactions from 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204627.csv'
+2026-07-19 20:46:27,711 - INFO - [data_preparation.py:69] - Saved prepared transactions (285 rows) to 'data_lake/prepared/transactions_prepared.csv'
+2026-07-19 20:46:27,712 - INFO - [data_preparation.py:74] - Preparing item metadata from 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204627.json'
+2026-07-19 20:46:27,714 - INFO - [data_preparation.py:93] - Saved prepared items (20 rows) to 'data_lake/prepared/items_prepared.csv'
+2026-07-19 20:46:27,715 - INFO - [data_preparation.py:98] - Preparing user demographics from 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_204627.csv'
+2026-07-19 20:46:27,717 - INFO - [data_preparation.py:114] - Saved prepared users (50 rows) to 'data_lake/prepared/users_prepared.csv'
+2026-07-19 20:46:27,717 - INFO - [data_preparation.py:118] - Generating EDA visualization plots...
+2026-07-19 20:46:28,119 - INFO - [data_preparation.py:171] - EDA plots generated in 'reports/figures' (Sparsity: 75.90%)
+2026-07-19 20:48:37,560 - INFO - [data_preparation.py:43] - Preparing transactions from 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204837.csv'
+2026-07-19 20:48:37,564 - INFO - [data_preparation.py:69] - Saved prepared transactions (285 rows) to 'data_lake/prepared/transactions_prepared.csv'
+2026-07-19 20:48:37,564 - INFO - [data_preparation.py:74] - Preparing item metadata from 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204837.json'
+2026-07-19 20:48:37,566 - INFO - [data_preparation.py:93] - Saved prepared items (20 rows) to 'data_lake/prepared/items_prepared.csv'
+2026-07-19 20:48:37,566 - INFO - [data_preparation.py:98] - Preparing user demographics from 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_204837.csv'
+2026-07-19 20:48:37,568 - INFO - [data_preparation.py:114] - Saved prepared users (50 rows) to 'data_lake/prepared/users_prepared.csv'
+2026-07-19 20:48:37,568 - INFO - [data_preparation.py:118] - Generating EDA visualization plots...
+2026-07-19 20:48:37,973 - INFO - [data_preparation.py:171] - EDA plots generated in 'reports/figures' (Sparsity: 75.90%)
+2026-07-19 21:07:09,847 - INFO - [data_preparation.py:43] - Preparing transactions from 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_210709.csv'
+2026-07-19 21:07:09,860 - INFO - [data_preparation.py:96] - Saved prepared transactions (1985 rows) to 'data_lake/prepared/transactions_prepared.csv'
+2026-07-19 21:07:09,861 - INFO - [data_preparation.py:101] - Preparing item metadata from 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_210709.json'
+2026-07-19 21:07:09,864 - INFO - [data_preparation.py:120] - Saved prepared items (50 rows) to 'data_lake/prepared/items_prepared.csv'
+2026-07-19 21:07:09,864 - INFO - [data_preparation.py:125] - Preparing user demographics from 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_210709.csv'
+2026-07-19 21:07:09,867 - INFO - [data_preparation.py:141] - Saved prepared users (200 rows) to 'data_lake/prepared/users_prepared.csv'
+2026-07-19 21:07:09,867 - INFO - [data_preparation.py:145] - Generating EDA visualization plots...
+2026-07-19 21:07:10,309 - INFO - [data_preparation.py:198] - EDA plots generated in 'reports/figures' (Sparsity: 82.03%)
+2026-07-19 21:07:12,965 - INFO - [data_preparation.py:43] - Preparing transactions from 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_210712.csv'
+2026-07-19 21:07:12,974 - INFO - [data_preparation.py:96] - Saved prepared transactions (285 rows) to 'data_lake/prepared/transactions_prepared.csv'
+2026-07-19 21:07:12,974 - INFO - [data_preparation.py:101] - Preparing item metadata from 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_210712.json'
+2026-07-19 21:07:12,977 - INFO - [data_preparation.py:120] - Saved prepared items (20 rows) to 'data_lake/prepared/items_prepared.csv'
+2026-07-19 21:07:12,977 - INFO - [data_preparation.py:125] - Preparing user demographics from 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_210712.csv'
+2026-07-19 21:07:12,979 - INFO - [data_preparation.py:141] - Saved prepared users (50 rows) to 'data_lake/prepared/users_prepared.csv'
+2026-07-19 21:07:26,959 - INFO - [data_preparation.py:43] - Preparing transactions from 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_210726.csv'
+2026-07-19 21:07:26,963 - INFO - [data_preparation.py:96] - Saved prepared transactions (285 rows) to 'data_lake/prepared/transactions_prepared.csv'
+2026-07-19 21:07:26,964 - INFO - [data_preparation.py:101] - Preparing item metadata from 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_210726.json'
+2026-07-19 21:07:26,966 - INFO - [data_preparation.py:120] - Saved prepared items (20 rows) to 'data_lake/prepared/items_prepared.csv'
+2026-07-19 21:07:26,967 - INFO - [data_preparation.py:125] - Preparing user demographics from 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_210726.csv'
+2026-07-19 21:07:26,968 - INFO - [data_preparation.py:141] - Saved prepared users (50 rows) to 'data_lake/prepared/users_prepared.csv'
+2026-07-19 21:07:26,968 - INFO - [data_preparation.py:145] - Generating EDA visualization plots...
+2026-07-19 21:07:27,376 - INFO - [data_preparation.py:198] - EDA plots generated in 'reports/figures' (Sparsity: 74.90%)
+2026-07-19 21:07:29,781 - INFO - [data_preparation.py:43] - Preparing transactions from 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_210729.csv'
+2026-07-19 21:07:29,786 - INFO - [data_preparation.py:96] - Saved prepared transactions (285 rows) to 'data_lake/prepared/transactions_prepared.csv'
+2026-07-19 21:07:29,786 - INFO - [data_preparation.py:101] - Preparing item metadata from 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_210729.json'
+2026-07-19 21:07:29,789 - INFO - [data_preparation.py:120] - Saved prepared items (20 rows) to 'data_lake/prepared/items_prepared.csv'
+2026-07-19 21:07:29,789 - INFO - [data_preparation.py:125] - Preparing user demographics from 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_210729.csv'
+2026-07-19 21:07:29,791 - INFO - [data_preparation.py:141] - Saved prepared users (50 rows) to 'data_lake/prepared/users_prepared.csv'
+2026-07-20 10:50:47,039 - INFO - [data_preparation.py:43] - Preparing transactions from 'data_lake/raw/transactions/year=2026/month=07/day=20/transactions_20260720_105046.csv'
+2026-07-20 10:50:47,051 - INFO - [data_preparation.py:96] - Saved prepared transactions (1985 rows) to 'data_lake/prepared/transactions_prepared.csv'
+2026-07-20 10:50:47,052 - INFO - [data_preparation.py:101] - Preparing item metadata from 'data_lake/raw/metadata/year=2026/month=07/day=20/metadata_20260720_105046.json'
+2026-07-20 10:50:47,054 - INFO - [data_preparation.py:120] - Saved prepared items (50 rows) to 'data_lake/prepared/items_prepared.csv'
+2026-07-20 10:50:47,055 - INFO - [data_preparation.py:125] - Preparing user demographics from 'data_lake/raw/users/year=2026/month=07/day=20/users_20260720_105046.csv'
+2026-07-20 10:50:47,056 - INFO - [data_preparation.py:141] - Saved prepared users (200 rows) to 'data_lake/prepared/users_prepared.csv'
+2026-07-20 10:50:47,056 - INFO - [data_preparation.py:145] - Generating EDA visualization plots...
+2026-07-20 10:50:47,471 - INFO - [data_preparation.py:198] - EDA plots generated in 'reports/figures' (Sparsity: 82.03%)

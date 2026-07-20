@@ -1,0 +1,61 @@
+2026-07-19 20:40:25,223 - INFO - [data_validation.py:40] - Validating transaction dataset: 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204025.csv'
+2026-07-19 20:40:25,407 - INFO - [data_validation.py:101] - Transactions validation completed. Passed: False
+2026-07-19 20:40:25,408 - INFO - [data_validation.py:108] - Validating metadata dataset: 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204025.json'
+2026-07-19 20:40:25,409 - INFO - [data_validation.py:133] - Metadata validation completed. Passed: True
+2026-07-19 20:40:25,412 - INFO - [data_validation.py:190] - Generated Data Quality reports in 'reports'
+2026-07-19 20:40:32,193 - INFO - [data_validation.py:40] - Validating transaction dataset: 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204032.csv'
+2026-07-19 20:40:32,224 - INFO - [data_validation.py:101] - Transactions validation completed. Passed: False
+2026-07-19 20:40:32,224 - INFO - [data_validation.py:108] - Validating metadata dataset: 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204032.json'
+2026-07-19 20:40:32,226 - INFO - [data_validation.py:133] - Metadata validation completed. Passed: True
+2026-07-19 20:41:02,037 - INFO - [data_validation.py:40] - Validating transaction dataset: 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204102.csv'
+2026-07-19 20:41:02,067 - INFO - [data_validation.py:101] - Transactions validation completed. Passed: False
+2026-07-19 20:41:02,067 - INFO - [data_validation.py:108] - Validating metadata dataset: 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204102.json'
+2026-07-19 20:41:02,069 - INFO - [data_validation.py:133] - Metadata validation completed. Passed: True
+2026-07-19 20:41:02,071 - INFO - [data_validation.py:190] - Generated Data Quality reports in 'reports'
+2026-07-19 20:41:09,174 - INFO - [data_validation.py:40] - Validating transaction dataset: 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204109.csv'
+2026-07-19 20:41:09,203 - INFO - [data_validation.py:101] - Transactions validation completed. Passed: False
+2026-07-19 20:41:09,204 - INFO - [data_validation.py:108] - Validating metadata dataset: 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204109.json'
+2026-07-19 20:41:09,206 - INFO - [data_validation.py:133] - Metadata validation completed. Passed: True
+2026-07-19 20:44:24,069 - INFO - [data_validation.py:40] - Validating transaction dataset: 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204424.csv'
+2026-07-19 20:44:24,099 - INFO - [data_validation.py:101] - Transactions validation completed. Passed: False
+2026-07-19 20:44:24,100 - INFO - [data_validation.py:108] - Validating metadata dataset: 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204424.json'
+2026-07-19 20:44:24,101 - INFO - [data_validation.py:133] - Metadata validation completed. Passed: True
+2026-07-19 20:44:24,105 - INFO - [data_validation.py:190] - Generated Data Quality reports in 'reports'
+2026-07-19 20:44:42,354 - INFO - [data_validation.py:40] - Validating transaction dataset: 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204442.csv'
+2026-07-19 20:44:42,385 - INFO - [data_validation.py:101] - Transactions validation completed. Passed: False
+2026-07-19 20:44:42,386 - INFO - [data_validation.py:108] - Validating metadata dataset: 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204442.json'
+2026-07-19 20:44:42,387 - INFO - [data_validation.py:133] - Metadata validation completed. Passed: True
+2026-07-19 20:44:42,390 - INFO - [data_validation.py:190] - Generated Data Quality reports in 'reports'
+2026-07-19 20:46:27,673 - INFO - [data_validation.py:40] - Validating transaction dataset: 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204627.csv'
+2026-07-19 20:46:27,702 - INFO - [data_validation.py:101] - Transactions validation completed. Passed: False
+2026-07-19 20:46:27,703 - INFO - [data_validation.py:108] - Validating metadata dataset: 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204627.json'
+2026-07-19 20:46:27,705 - INFO - [data_validation.py:133] - Metadata validation completed. Passed: True
+2026-07-19 20:46:27,707 - INFO - [data_validation.py:190] - Generated Data Quality reports in 'reports'
+2026-07-19 20:48:37,525 - INFO - [data_validation.py:40] - Validating transaction dataset: 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204837.csv'
+2026-07-19 20:48:37,555 - INFO - [data_validation.py:101] - Transactions validation completed. Passed: False
+2026-07-19 20:48:37,556 - INFO - [data_validation.py:108] - Validating metadata dataset: 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204837.json'
+2026-07-19 20:48:37,557 - INFO - [data_validation.py:133] - Metadata validation completed. Passed: True
+2026-07-19 20:48:37,560 - INFO - [data_validation.py:190] - Generated Data Quality reports in 'reports'
+2026-07-19 21:07:09,660 - INFO - [data_validation.py:40] - Validating transaction dataset: 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_210709.csv'
+2026-07-19 21:07:09,842 - INFO - [data_validation.py:103] - Transactions validation completed. Passed: False
+2026-07-19 21:07:09,843 - INFO - [data_validation.py:110] - Validating metadata dataset: 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_210709.json'
+2026-07-19 21:07:09,845 - INFO - [data_validation.py:135] - Metadata validation completed. Passed: True
+2026-07-19 21:07:09,847 - INFO - [data_validation.py:192] - Generated Data Quality reports in 'reports'
+2026-07-19 21:07:12,873 - INFO - [data_validation.py:40] - Validating transaction dataset: 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_210712.csv'
+2026-07-19 21:07:12,903 - INFO - [data_validation.py:103] - Transactions validation completed. Passed: False
+2026-07-19 21:07:12,903 - INFO - [data_validation.py:110] - Validating metadata dataset: 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_210712.json'
+2026-07-19 21:07:12,905 - INFO - [data_validation.py:135] - Metadata validation completed. Passed: True
+2026-07-19 21:07:26,924 - INFO - [data_validation.py:40] - Validating transaction dataset: 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_210726.csv'
+2026-07-19 21:07:26,953 - INFO - [data_validation.py:103] - Transactions validation completed. Passed: False
+2026-07-19 21:07:26,954 - INFO - [data_validation.py:110] - Validating metadata dataset: 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_210726.json'
+2026-07-19 21:07:26,956 - INFO - [data_validation.py:135] - Metadata validation completed. Passed: True
+2026-07-19 21:07:26,958 - INFO - [data_validation.py:192] - Generated Data Quality reports in 'reports'
+2026-07-19 21:07:29,745 - INFO - [data_validation.py:40] - Validating transaction dataset: 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_210729.csv'
+2026-07-19 21:07:29,775 - INFO - [data_validation.py:103] - Transactions validation completed. Passed: False
+2026-07-19 21:07:29,776 - INFO - [data_validation.py:110] - Validating metadata dataset: 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_210729.json'
+2026-07-19 21:07:29,780 - INFO - [data_validation.py:135] - Metadata validation completed. Passed: True
+2026-07-20 10:50:46,851 - INFO - [data_validation.py:40] - Validating transaction dataset: 'data_lake/raw/transactions/year=2026/month=07/day=20/transactions_20260720_105046.csv'
+2026-07-20 10:50:47,034 - INFO - [data_validation.py:103] - Transactions validation completed. Passed: False
+2026-07-20 10:50:47,035 - INFO - [data_validation.py:110] - Validating metadata dataset: 'data_lake/raw/metadata/year=2026/month=07/day=20/metadata_20260720_105046.json'
+2026-07-20 10:50:47,037 - INFO - [data_validation.py:135] - Metadata validation completed. Passed: True
+2026-07-20 10:50:47,039 - INFO - [data_validation.py:192] - Generated Data Quality reports in 'reports'

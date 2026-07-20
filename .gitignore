@@ -13,12 +13,5 @@ mlruns/
 models/*.pkl
 models/*.json
 
-# Dynamically generated reports, figures, and PDFs
-reports/figures/*.png
-
-# Execution logs
-logs/*.log
-*.log
-
 # System files
 .DS_Store

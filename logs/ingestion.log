@@ -1,0 +1,93 @@
+2026-07-19 20:40:25,163 - INFO - [data_ingestion.py:144] - === Starting RecoMart Data Ingestion Stage ===
+2026-07-19 20:40:25,167 - INFO - [data_ingestion.py:149] - Generating initial synthetic dataset for pipeline run...
+2026-07-19 20:40:25,215 - INFO - [data_ingestion.py:65] - Starting transaction ingestion from 'input_data/transactions.csv'
+2026-07-19 20:40:25,219 - INFO - [data_ingestion.py:76] - Successfully ingested 2000 transactions to 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204025.csv'
+2026-07-19 20:40:25,219 - INFO - [data_ingestion.py:86] - Starting user demographics ingestion from 'input_data/users.csv'
+2026-07-19 20:40:25,221 - INFO - [data_ingestion.py:97] - Successfully ingested 200 user profiles to 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_204025.csv'
+2026-07-19 20:40:25,222 - INFO - [data_ingestion.py:135] - Successfully ingested 50 item metadata records to 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204025.json'
+2026-07-19 20:40:25,222 - INFO - [data_ingestion.py:156] - === RecoMart Data Ingestion Stage Completed Successfully ===
+2026-07-19 20:40:32,189 - INFO - [data_ingestion.py:144] - === Starting RecoMart Data Ingestion Stage ===
+2026-07-19 20:40:32,189 - INFO - [data_ingestion.py:65] - Starting transaction ingestion from 'input_data/transactions.csv'
+2026-07-19 20:40:32,190 - INFO - [data_ingestion.py:76] - Successfully ingested 300 transactions to 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204032.csv'
+2026-07-19 20:40:32,190 - INFO - [data_ingestion.py:86] - Starting user demographics ingestion from 'input_data/users.csv'
+2026-07-19 20:40:32,191 - INFO - [data_ingestion.py:97] - Successfully ingested 50 user profiles to 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_204032.csv'
+2026-07-19 20:40:32,191 - INFO - [data_ingestion.py:135] - Successfully ingested 20 item metadata records to 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204032.json'
+2026-07-19 20:40:32,192 - INFO - [data_ingestion.py:156] - === RecoMart Data Ingestion Stage Completed Successfully ===
+2026-07-19 20:41:02,031 - INFO - [data_ingestion.py:144] - === Starting RecoMart Data Ingestion Stage ===
+2026-07-19 20:41:02,031 - INFO - [data_ingestion.py:65] - Starting transaction ingestion from 'input_data/transactions.csv'
+2026-07-19 20:41:02,034 - INFO - [data_ingestion.py:76] - Successfully ingested 300 transactions to 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204102.csv'
+2026-07-19 20:41:02,034 - INFO - [data_ingestion.py:86] - Starting user demographics ingestion from 'input_data/users.csv'
+2026-07-19 20:41:02,035 - INFO - [data_ingestion.py:97] - Successfully ingested 50 user profiles to 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_204102.csv'
+2026-07-19 20:41:02,036 - INFO - [data_ingestion.py:135] - Successfully ingested 20 item metadata records to 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204102.json'
+2026-07-19 20:41:02,036 - INFO - [data_ingestion.py:156] - === RecoMart Data Ingestion Stage Completed Successfully ===
+2026-07-19 20:41:09,170 - INFO - [data_ingestion.py:144] - === Starting RecoMart Data Ingestion Stage ===
+2026-07-19 20:41:09,170 - INFO - [data_ingestion.py:65] - Starting transaction ingestion from 'input_data/transactions.csv'
+2026-07-19 20:41:09,172 - INFO - [data_ingestion.py:76] - Successfully ingested 300 transactions to 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204109.csv'
+2026-07-19 20:41:09,172 - INFO - [data_ingestion.py:86] - Starting user demographics ingestion from 'input_data/users.csv'
+2026-07-19 20:41:09,172 - INFO - [data_ingestion.py:97] - Successfully ingested 50 user profiles to 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_204109.csv'
+2026-07-19 20:41:09,173 - INFO - [data_ingestion.py:135] - Successfully ingested 20 item metadata records to 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204109.json'
+2026-07-19 20:41:09,173 - INFO - [data_ingestion.py:156] - === RecoMart Data Ingestion Stage Completed Successfully ===
+2026-07-19 20:44:24,064 - INFO - [data_ingestion.py:144] - === Starting RecoMart Data Ingestion Stage ===
+2026-07-19 20:44:24,065 - INFO - [data_ingestion.py:65] - Starting transaction ingestion from 'input_data/transactions.csv'
+2026-07-19 20:44:24,067 - INFO - [data_ingestion.py:76] - Successfully ingested 300 transactions to 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204424.csv'
+2026-07-19 20:44:24,067 - INFO - [data_ingestion.py:86] - Starting user demographics ingestion from 'input_data/users.csv'
+2026-07-19 20:44:24,067 - INFO - [data_ingestion.py:97] - Successfully ingested 50 user profiles to 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_204424.csv'
+2026-07-19 20:44:24,068 - INFO - [data_ingestion.py:135] - Successfully ingested 20 item metadata records to 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204424.json'
+2026-07-19 20:44:24,068 - INFO - [data_ingestion.py:156] - === RecoMart Data Ingestion Stage Completed Successfully ===
+2026-07-19 20:44:42,349 - INFO - [data_ingestion.py:144] - === Starting RecoMart Data Ingestion Stage ===
+2026-07-19 20:44:42,350 - INFO - [data_ingestion.py:65] - Starting transaction ingestion from 'input_data/transactions.csv'
+2026-07-19 20:44:42,352 - INFO - [data_ingestion.py:76] - Successfully ingested 300 transactions to 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204442.csv'
+2026-07-19 20:44:42,352 - INFO - [data_ingestion.py:86] - Starting user demographics ingestion from 'input_data/users.csv'
+2026-07-19 20:44:42,353 - INFO - [data_ingestion.py:97] - Successfully ingested 50 user profiles to 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_204442.csv'
+2026-07-19 20:44:42,353 - INFO - [data_ingestion.py:135] - Successfully ingested 20 item metadata records to 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204442.json'
+2026-07-19 20:44:42,353 - INFO - [data_ingestion.py:156] - === RecoMart Data Ingestion Stage Completed Successfully ===
+2026-07-19 20:46:27,667 - INFO - [data_ingestion.py:144] - === Starting RecoMart Data Ingestion Stage ===
+2026-07-19 20:46:27,668 - INFO - [data_ingestion.py:65] - Starting transaction ingestion from 'input_data/transactions.csv'
+2026-07-19 20:46:27,670 - INFO - [data_ingestion.py:76] - Successfully ingested 300 transactions to 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204627.csv'
+2026-07-19 20:46:27,670 - INFO - [data_ingestion.py:86] - Starting user demographics ingestion from 'input_data/users.csv'
+2026-07-19 20:46:27,671 - INFO - [data_ingestion.py:97] - Successfully ingested 50 user profiles to 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_204627.csv'
+2026-07-19 20:46:27,672 - INFO - [data_ingestion.py:135] - Successfully ingested 20 item metadata records to 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204627.json'
+2026-07-19 20:46:27,672 - INFO - [data_ingestion.py:156] - === RecoMart Data Ingestion Stage Completed Successfully ===
+2026-07-19 20:48:37,520 - INFO - [data_ingestion.py:144] - === Starting RecoMart Data Ingestion Stage ===
+2026-07-19 20:48:37,521 - INFO - [data_ingestion.py:65] - Starting transaction ingestion from 'input_data/transactions.csv'
+2026-07-19 20:48:37,523 - INFO - [data_ingestion.py:76] - Successfully ingested 300 transactions to 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_204837.csv'
+2026-07-19 20:48:37,523 - INFO - [data_ingestion.py:86] - Starting user demographics ingestion from 'input_data/users.csv'
+2026-07-19 20:48:37,524 - INFO - [data_ingestion.py:97] - Successfully ingested 50 user profiles to 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_204837.csv'
+2026-07-19 20:48:37,525 - INFO - [data_ingestion.py:135] - Successfully ingested 20 item metadata records to 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_204837.json'
+2026-07-19 20:48:37,525 - INFO - [data_ingestion.py:156] - === RecoMart Data Ingestion Stage Completed Successfully ===
+2026-07-19 21:07:09,648 - INFO - [data_ingestion.py:144] - === Starting RecoMart Data Ingestion Stage ===
+2026-07-19 21:07:09,650 - INFO - [data_ingestion.py:65] - Starting transaction ingestion from 'input_data/transactions.csv'
+2026-07-19 21:07:09,657 - INFO - [data_ingestion.py:76] - Successfully ingested 2000 transactions to 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_210709.csv'
+2026-07-19 21:07:09,657 - INFO - [data_ingestion.py:86] - Starting user demographics ingestion from 'input_data/users.csv'
+2026-07-19 21:07:09,658 - INFO - [data_ingestion.py:97] - Successfully ingested 200 user profiles to 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_210709.csv'
+2026-07-19 21:07:09,659 - INFO - [data_ingestion.py:135] - Successfully ingested 50 item metadata records to 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_210709.json'
+2026-07-19 21:07:09,659 - INFO - [data_ingestion.py:156] - === RecoMart Data Ingestion Stage Completed Successfully ===
+2026-07-19 21:07:12,869 - INFO - [data_ingestion.py:144] - === Starting RecoMart Data Ingestion Stage ===
+2026-07-19 21:07:12,869 - INFO - [data_ingestion.py:65] - Starting transaction ingestion from 'input_data/transactions.csv'
+2026-07-19 21:07:12,870 - INFO - [data_ingestion.py:76] - Successfully ingested 300 transactions to 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_210712.csv'
+2026-07-19 21:07:12,870 - INFO - [data_ingestion.py:86] - Starting user demographics ingestion from 'input_data/users.csv'
+2026-07-19 21:07:12,871 - INFO - [data_ingestion.py:97] - Successfully ingested 50 user profiles to 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_210712.csv'
+2026-07-19 21:07:12,872 - INFO - [data_ingestion.py:135] - Successfully ingested 20 item metadata records to 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_210712.json'
+2026-07-19 21:07:12,872 - INFO - [data_ingestion.py:156] - === RecoMart Data Ingestion Stage Completed Successfully ===
+2026-07-19 21:07:26,919 - INFO - [data_ingestion.py:144] - === Starting RecoMart Data Ingestion Stage ===
+2026-07-19 21:07:26,919 - INFO - [data_ingestion.py:65] - Starting transaction ingestion from 'input_data/transactions.csv'
+2026-07-19 21:07:26,922 - INFO - [data_ingestion.py:76] - Successfully ingested 300 transactions to 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_210726.csv'
+2026-07-19 21:07:26,922 - INFO - [data_ingestion.py:86] - Starting user demographics ingestion from 'input_data/users.csv'
+2026-07-19 21:07:26,923 - INFO - [data_ingestion.py:97] - Successfully ingested 50 user profiles to 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_210726.csv'
+2026-07-19 21:07:26,923 - INFO - [data_ingestion.py:135] - Successfully ingested 20 item metadata records to 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_210726.json'
+2026-07-19 21:07:26,923 - INFO - [data_ingestion.py:156] - === RecoMart Data Ingestion Stage Completed Successfully ===
+2026-07-19 21:07:29,740 - INFO - [data_ingestion.py:144] - === Starting RecoMart Data Ingestion Stage ===
+2026-07-19 21:07:29,740 - INFO - [data_ingestion.py:65] - Starting transaction ingestion from 'input_data/transactions.csv'
+2026-07-19 21:07:29,742 - INFO - [data_ingestion.py:76] - Successfully ingested 300 transactions to 'data_lake/raw/transactions/year=2026/month=07/day=19/transactions_20260719_210729.csv'
+2026-07-19 21:07:29,742 - INFO - [data_ingestion.py:86] - Starting user demographics ingestion from 'input_data/users.csv'
+2026-07-19 21:07:29,743 - INFO - [data_ingestion.py:97] - Successfully ingested 50 user profiles to 'data_lake/raw/users/year=2026/month=07/day=19/users_20260719_210729.csv'
+2026-07-19 21:07:29,744 - INFO - [data_ingestion.py:135] - Successfully ingested 20 item metadata records to 'data_lake/raw/metadata/year=2026/month=07/day=19/metadata_20260719_210729.json'
+2026-07-19 21:07:29,744 - INFO - [data_ingestion.py:156] - === RecoMart Data Ingestion Stage Completed Successfully ===
+2026-07-20 10:50:46,800 - INFO - [data_ingestion.py:144] - === Starting RecoMart Data Ingestion Stage ===
+2026-07-20 10:50:46,802 - INFO - [data_ingestion.py:149] - Generating initial synthetic dataset for pipeline run...
+2026-07-20 10:50:46,842 - INFO - [data_ingestion.py:65] - Starting transaction ingestion from 'input_data/transactions.csv'
+2026-07-20 10:50:46,848 - INFO - [data_ingestion.py:76] - Successfully ingested 2000 transactions to 'data_lake/raw/transactions/year=2026/month=07/day=20/transactions_20260720_105046.csv'
+2026-07-20 10:50:46,848 - INFO - [data_ingestion.py:86] - Starting user demographics ingestion from 'input_data/users.csv'
+2026-07-20 10:50:46,849 - INFO - [data_ingestion.py:97] - Successfully ingested 200 user profiles to 'data_lake/raw/users/year=2026/month=07/day=20/users_20260720_105046.csv'
+2026-07-20 10:50:46,850 - INFO - [data_ingestion.py:135] - Successfully ingested 50 item metadata records to 'data_lake/raw/metadata/year=2026/month=07/day=20/metadata_20260720_105046.json'
+2026-07-20 10:50:46,850 - INFO - [data_ingestion.py:156] - === RecoMart Data Ingestion Stage Completed Successfully ===

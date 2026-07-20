@@ -1,0 +1,305 @@
+2026-07-19 20:40:25,155 - INFO - [pipeline_orchestrator.py:63] - Starting RecoMart Data Management & ML Pipeline Execution at 2026-07-19 20:40:25.155438
+2026-07-19 20:40:25,155 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:40:25,155 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 01_Problem_Formulation
+2026-07-19 20:40:25,155 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:40:25,163 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '01_Problem_Formulation' completed in 0.01 seconds.
+2026-07-19 20:40:25,163 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:40:25,163 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 02_Data_Ingestion
+2026-07-19 20:40:25,163 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:40:25,222 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '02_Data_Ingestion' completed in 0.06 seconds.
+2026-07-19 20:40:25,222 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:40:25,222 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 03_Data_Validation
+2026-07-19 20:40:25,222 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:40:25,412 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '03_Data_Validation' completed in 0.19 seconds.
+2026-07-19 20:40:25,412 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:40:25,412 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 04_Data_Preparation
+2026-07-19 20:40:25,412 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:40:26,337 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '04_Data_Preparation' completed in 0.93 seconds.
+2026-07-19 20:40:26,337 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:40:26,337 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 05_Feature_Engineering
+2026-07-19 20:40:26,337 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:40:26,364 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '05_Feature_Engineering' completed in 0.03 seconds.
+2026-07-19 20:40:26,364 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:40:26,364 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 06_Feature_Store_Sync
+2026-07-19 20:40:26,364 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:40:26,365 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '06_Feature_Store_Sync' completed in 0.0 seconds.
+2026-07-19 20:40:26,365 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:40:26,365 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 07_Data_Versioning
+2026-07-19 20:40:26,365 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:40:26,370 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '07_Data_Versioning' completed in 0.01 seconds.
+2026-07-19 20:40:26,370 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:40:26,370 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 08_Model_Training_Evaluation
+2026-07-19 20:40:26,370 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:40:30,182 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '08_Model_Training_Evaluation' completed in 3.81 seconds.
+2026-07-19 20:40:30,182 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:40:30,182 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 09_Inference_Verification
+2026-07-19 20:40:30,182 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:40:30,186 - ERROR - [pipeline_orchestrator.py:56] - ❌ STAGE FAILED: '09_Inference_Verification' failed after 0.0 seconds: too many values to unpack (expected 2)
+2026-07-19 20:40:30,187 - ERROR - [pipeline_orchestrator.py:57] - Traceback (most recent call last):
+  File "/Users/sagarkonde/bits-aiml-dmml/src/orchestration/pipeline_orchestrator.py", line 49, in execute_stage
+    result = func(*args, **kwargs)
+  File "/Users/sagarkonde/bits-aiml-dmml/src/orchestration/pipeline_orchestrator.py", line 92, in test_inference
+    return service.get_recommendations("1001", top_k=5)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/sagarkonde/bits-aiml-dmml/src/model/inference.py", line 61, in get_recommendations
+    for item_id, score in recs:
+        ^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+
+2026-07-19 20:41:02,027 - INFO - [pipeline_orchestrator.py:63] - Starting RecoMart Data Management & ML Pipeline Execution at 2026-07-19 20:41:02.027248
+2026-07-19 20:41:02,027 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:41:02,027 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 01_Problem_Formulation
+2026-07-19 20:41:02,027 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:41:02,031 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '01_Problem_Formulation' completed in 0.0 seconds.
+2026-07-19 20:41:02,031 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:41:02,031 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 02_Data_Ingestion
+2026-07-19 20:41:02,031 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:41:02,036 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '02_Data_Ingestion' completed in 0.01 seconds.
+2026-07-19 20:41:02,036 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:41:02,036 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 03_Data_Validation
+2026-07-19 20:41:02,036 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:41:02,071 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '03_Data_Validation' completed in 0.04 seconds.
+2026-07-19 20:41:02,072 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:41:02,072 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 04_Data_Preparation
+2026-07-19 20:41:02,072 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:41:02,479 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '04_Data_Preparation' completed in 0.41 seconds.
+2026-07-19 20:41:02,479 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:41:02,479 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 05_Feature_Engineering
+2026-07-19 20:41:02,479 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:41:02,495 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '05_Feature_Engineering' completed in 0.02 seconds.
+2026-07-19 20:41:02,495 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:41:02,495 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 06_Feature_Store_Sync
+2026-07-19 20:41:02,495 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:41:02,496 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '06_Feature_Store_Sync' completed in 0.0 seconds.
+2026-07-19 20:41:02,496 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:41:02,496 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 07_Data_Versioning
+2026-07-19 20:41:02,496 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:41:02,499 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '07_Data_Versioning' completed in 0.0 seconds.
+2026-07-19 20:41:02,499 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:41:02,499 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 08_Model_Training_Evaluation
+2026-07-19 20:41:02,499 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:41:03,250 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '08_Model_Training_Evaluation' completed in 0.75 seconds.
+2026-07-19 20:41:03,251 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:41:03,251 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 09_Inference_Verification
+2026-07-19 20:41:03,251 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:41:03,255 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '09_Inference_Verification' completed in 0.0 seconds.
+2026-07-19 20:41:03,255 - INFO - [pipeline_orchestrator.py:96] - 
+🎉🎉🎉 RECOMART PIPELINE EXECUTION COMPLETED SUCCESSFULLY IN 1.23 SECONDS 🎉🎉🎉
+2026-07-19 20:46:27,664 - INFO - [pipeline_orchestrator.py:63] - Starting RecoMart Data Management & ML Pipeline Execution at 2026-07-19 20:46:27.664196
+2026-07-19 20:46:27,664 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:46:27,664 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 01_Problem_Formulation
+2026-07-19 20:46:27,664 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:46:27,667 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '01_Problem_Formulation' completed in 0.0 seconds.
+2026-07-19 20:46:27,667 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:46:27,667 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 02_Data_Ingestion
+2026-07-19 20:46:27,667 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:46:27,672 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '02_Data_Ingestion' completed in 0.0 seconds.
+2026-07-19 20:46:27,672 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:46:27,672 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 03_Data_Validation
+2026-07-19 20:46:27,672 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:46:27,707 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '03_Data_Validation' completed in 0.03 seconds.
+2026-07-19 20:46:27,707 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:46:27,707 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 04_Data_Preparation
+2026-07-19 20:46:27,707 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:46:28,119 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '04_Data_Preparation' completed in 0.41 seconds.
+2026-07-19 20:46:28,119 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:46:28,119 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 05_Feature_Engineering
+2026-07-19 20:46:28,119 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:46:28,135 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '05_Feature_Engineering' completed in 0.02 seconds.
+2026-07-19 20:46:28,135 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:46:28,135 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 06_Feature_Store_Sync
+2026-07-19 20:46:28,135 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:46:28,136 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '06_Feature_Store_Sync' completed in 0.0 seconds.
+2026-07-19 20:46:28,136 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:46:28,136 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 07_Data_Versioning
+2026-07-19 20:46:28,136 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:46:28,139 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '07_Data_Versioning' completed in 0.0 seconds.
+2026-07-19 20:46:28,139 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:46:28,139 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 08_Model_Training_Evaluation
+2026-07-19 20:46:28,139 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:46:28,916 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '08_Model_Training_Evaluation' completed in 0.78 seconds.
+2026-07-19 20:46:28,916 - INFO - [pipeline_orchestrator.py:44] - 
+==================================================
+2026-07-19 20:46:28,916 - INFO - [pipeline_orchestrator.py:45] - >>> PIPELINE STAGE START: 09_Inference_Verification
+2026-07-19 20:46:28,916 - INFO - [pipeline_orchestrator.py:46] - ==================================================
+2026-07-19 20:46:28,921 - INFO - [pipeline_orchestrator.py:51] - ✅ STAGE SUCCESS: '09_Inference_Verification' completed in 0.0 seconds.
+2026-07-19 20:46:28,921 - INFO - [pipeline_orchestrator.py:96] - 
+🎉🎉🎉 RECOMART PIPELINE EXECUTION COMPLETED SUCCESSFULLY IN 1.26 SECONDS 🎉🎉🎉
+2026-07-19 20:48:37,516 - INFO - [pipeline_orchestrator.py:63] - Starting RecoMart Data Management & ML Pipeline Execution at 2026-07-19 20:48:37.516925
+2026-07-19 20:48:37,517 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 20:48:37,517 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 01_Problem_Formulation
+2026-07-19 20:48:37,517 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 20:48:37,520 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '01_Problem_Formulation' completed in 0.0 seconds.
+2026-07-19 20:48:37,520 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 20:48:37,520 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 02_Data_Ingestion
+2026-07-19 20:48:37,520 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 20:48:37,525 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '02_Data_Ingestion' completed in 0.0 seconds.
+2026-07-19 20:48:37,525 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 20:48:37,525 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 03_Data_Validation
+2026-07-19 20:48:37,525 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 20:48:37,560 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '03_Data_Validation' completed in 0.03 seconds.
+2026-07-19 20:48:37,560 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 20:48:37,560 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 04_Data_Preparation
+2026-07-19 20:48:37,560 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 20:48:37,974 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '04_Data_Preparation' completed in 0.41 seconds.
+2026-07-19 20:48:37,974 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 20:48:37,974 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 05_Feature_Engineering
+2026-07-19 20:48:37,974 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 20:48:37,991 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '05_Feature_Engineering' completed in 0.02 seconds.
+2026-07-19 20:48:37,991 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 20:48:37,991 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 06_Feature_Store_Sync
+2026-07-19 20:48:37,991 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 20:48:37,992 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '06_Feature_Store_Sync' completed in 0.0 seconds.
+2026-07-19 20:48:37,992 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 20:48:37,992 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 07_Data_Versioning
+2026-07-19 20:48:37,992 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 20:48:37,995 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '07_Data_Versioning' completed in 0.0 seconds.
+2026-07-19 20:48:37,995 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 20:48:37,995 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 08_Model_Training_Evaluation
+2026-07-19 20:48:37,995 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 20:48:38,796 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '08_Model_Training_Evaluation' completed in 0.8 seconds.
+2026-07-19 20:48:38,796 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 20:48:38,796 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 09_Inference_Verification
+2026-07-19 20:48:38,796 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 20:48:38,800 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '09_Inference_Verification' completed in 0.0 seconds.
+2026-07-19 20:48:38,800 - INFO - [pipeline_orchestrator.py:96] - RECOMART PIPELINE EXECUTION COMPLETED SUCCESSFULLY IN 1.28 SECONDS
+2026-07-19 21:07:09,644 - INFO - [pipeline_orchestrator.py:63] - Starting RecoMart Data Management & ML Pipeline Execution at 2026-07-19 21:07:09.644396
+2026-07-19 21:07:09,644 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:09,644 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 01_Problem_Formulation
+2026-07-19 21:07:09,644 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:09,648 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '01_Problem_Formulation' completed in 0.0 seconds.
+2026-07-19 21:07:09,648 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:09,648 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 02_Data_Ingestion
+2026-07-19 21:07:09,648 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:09,659 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '02_Data_Ingestion' completed in 0.01 seconds.
+2026-07-19 21:07:09,659 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:09,659 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 03_Data_Validation
+2026-07-19 21:07:09,659 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:09,847 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '03_Data_Validation' completed in 0.19 seconds.
+2026-07-19 21:07:09,847 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:09,847 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 04_Data_Preparation
+2026-07-19 21:07:09,847 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:10,309 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '04_Data_Preparation' completed in 0.46 seconds.
+2026-07-19 21:07:10,309 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:10,309 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 05_Feature_Engineering
+2026-07-19 21:07:10,309 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:10,336 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '05_Feature_Engineering' completed in 0.03 seconds.
+2026-07-19 21:07:10,336 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:10,336 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 06_Feature_Store_Sync
+2026-07-19 21:07:10,336 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:10,337 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '06_Feature_Store_Sync' completed in 0.0 seconds.
+2026-07-19 21:07:10,337 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:10,337 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 07_Data_Versioning
+2026-07-19 21:07:10,337 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:10,344 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '07_Data_Versioning' completed in 0.01 seconds.
+2026-07-19 21:07:10,344 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:10,344 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 08_Model_Training_Evaluation
+2026-07-19 21:07:10,345 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:11,335 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '08_Model_Training_Evaluation' completed in 0.99 seconds.
+2026-07-19 21:07:11,335 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:11,335 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 09_Inference_Verification
+2026-07-19 21:07:11,335 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:11,340 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '09_Inference_Verification' completed in 0.01 seconds.
+2026-07-19 21:07:11,340 - INFO - [pipeline_orchestrator.py:96] - RECOMART PIPELINE EXECUTION COMPLETED SUCCESSFULLY IN 1.7 SECONDS
+2026-07-19 21:07:26,915 - INFO - [pipeline_orchestrator.py:63] - Starting RecoMart Data Management & ML Pipeline Execution at 2026-07-19 21:07:26.915290
+2026-07-19 21:07:26,915 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:26,915 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 01_Problem_Formulation
+2026-07-19 21:07:26,915 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:26,919 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '01_Problem_Formulation' completed in 0.0 seconds.
+2026-07-19 21:07:26,919 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:26,919 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 02_Data_Ingestion
+2026-07-19 21:07:26,919 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:26,923 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '02_Data_Ingestion' completed in 0.0 seconds.
+2026-07-19 21:07:26,923 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:26,923 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 03_Data_Validation
+2026-07-19 21:07:26,923 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:26,959 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '03_Data_Validation' completed in 0.04 seconds.
+2026-07-19 21:07:26,959 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:26,959 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 04_Data_Preparation
+2026-07-19 21:07:26,959 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:27,376 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '04_Data_Preparation' completed in 0.42 seconds.
+2026-07-19 21:07:27,376 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:27,376 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 05_Feature_Engineering
+2026-07-19 21:07:27,376 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:27,392 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '05_Feature_Engineering' completed in 0.02 seconds.
+2026-07-19 21:07:27,392 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:27,392 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 06_Feature_Store_Sync
+2026-07-19 21:07:27,393 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:27,393 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '06_Feature_Store_Sync' completed in 0.0 seconds.
+2026-07-19 21:07:27,393 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:27,393 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 07_Data_Versioning
+2026-07-19 21:07:27,393 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:27,396 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '07_Data_Versioning' completed in 0.0 seconds.
+2026-07-19 21:07:27,397 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:27,397 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 08_Model_Training_Evaluation
+2026-07-19 21:07:27,397 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:28,172 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '08_Model_Training_Evaluation' completed in 0.78 seconds.
+2026-07-19 21:07:28,172 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-19 21:07:28,172 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 09_Inference_Verification
+2026-07-19 21:07:28,172 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-19 21:07:28,178 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '09_Inference_Verification' completed in 0.01 seconds.
+2026-07-19 21:07:28,178 - INFO - [pipeline_orchestrator.py:96] - RECOMART PIPELINE EXECUTION COMPLETED SUCCESSFULLY IN 1.26 SECONDS
+2026-07-20 10:50:46,796 - INFO - [pipeline_orchestrator.py:63] - Starting RecoMart Data Management & ML Pipeline Execution at 2026-07-20 10:50:46.796566
+2026-07-20 10:50:46,796 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-20 10:50:46,796 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 01_Problem_Formulation
+2026-07-20 10:50:46,796 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-20 10:50:46,800 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '01_Problem_Formulation' completed in 0.0 seconds.
+2026-07-20 10:50:46,800 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-20 10:50:46,800 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 02_Data_Ingestion
+2026-07-20 10:50:46,800 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-20 10:50:46,850 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '02_Data_Ingestion' completed in 0.05 seconds.
+2026-07-20 10:50:46,850 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-20 10:50:46,850 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 03_Data_Validation
+2026-07-20 10:50:46,850 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-20 10:50:47,039 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '03_Data_Validation' completed in 0.19 seconds.
+2026-07-20 10:50:47,039 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-20 10:50:47,039 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 04_Data_Preparation
+2026-07-20 10:50:47,039 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-20 10:50:47,471 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '04_Data_Preparation' completed in 0.43 seconds.
+2026-07-20 10:50:47,471 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-20 10:50:47,471 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 05_Feature_Engineering
+2026-07-20 10:50:47,471 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-20 10:50:47,503 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '05_Feature_Engineering' completed in 0.03 seconds.
+2026-07-20 10:50:47,503 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-20 10:50:47,503 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 06_Feature_Store_Sync
+2026-07-20 10:50:47,503 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-20 10:50:47,503 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '06_Feature_Store_Sync' completed in 0.0 seconds.
+2026-07-20 10:50:47,503 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-20 10:50:47,504 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 07_Data_Versioning
+2026-07-20 10:50:47,504 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-20 10:50:47,511 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '07_Data_Versioning' completed in 0.01 seconds.
+2026-07-20 10:50:47,511 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-20 10:50:47,511 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 08_Model_Training_Evaluation
+2026-07-20 10:50:47,511 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-20 10:50:48,693 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '08_Model_Training_Evaluation' completed in 1.18 seconds.
+2026-07-20 10:50:48,693 - INFO - [pipeline_orchestrator.py:44] - --------------------------------------------------
+2026-07-20 10:50:48,693 - INFO - [pipeline_orchestrator.py:45] - PIPELINE STAGE START: 09_Inference_Verification
+2026-07-20 10:50:48,693 - INFO - [pipeline_orchestrator.py:46] - --------------------------------------------------
+2026-07-20 10:50:48,700 - INFO - [pipeline_orchestrator.py:51] - STAGE SUCCESS: '09_Inference_Verification' completed in 0.01 seconds.
+2026-07-20 10:50:48,700 - INFO - [pipeline_orchestrator.py:96] - RECOMART PIPELINE EXECUTION COMPLETED SUCCESSFULLY IN 1.9 SECONDS
