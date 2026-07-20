@@ -1,0 +1,11 @@
+{
+    "dataset_name": "items",
+    "stage": "prepared",
+    "file_path": "data_lake/prepared/items_prepared.csv",
+    "md5_checksum": "8ea11229165dcfe273ff2a94eadcda66",
+    "size_bytes": 5696,
+    "row_count": 50,
+    "transform_applied": "MinMax Scaling & Sentiment Normalization",
+    "timestamp": "2026-07-20T10:50:47.510527",
+    "version_tag": "v1.1784524847"
+}

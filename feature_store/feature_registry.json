@@ -1,0 +1,40 @@
+{
+    "project": "RecoMart",
+    "last_synced": "2026-07-20T10:50:48.694165",
+    "feature_views": {
+        "user_features": {
+            "entity": "user_id",
+            "features": [
+                "user_interaction_count",
+                "user_avg_rating",
+                "user_rating_std",
+                "tier_code"
+            ],
+            "version": "v1.0"
+        },
+        "item_features": {
+            "entity": "item_id",
+            "features": [
+                "item_interaction_count",
+                "item_avg_rating",
+                "item_rating_std",
+                "price_normalized",
+                "sentiment_score",
+                "popularity_normalized",
+                "category_code"
+            ],
+            "version": "v1.0"
+        },
+        "item_cooccurrence": {
+            "entity": [
+                "item_id_a",
+                "item_id_b"
+            ],
+            "features": [
+                "cooccurrence_count",
+                "jaccard_similarity"
+            ],
+            "version": "v1.0"
+        }
+    }
+}

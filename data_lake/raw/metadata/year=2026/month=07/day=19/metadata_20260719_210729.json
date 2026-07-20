@@ -1,0 +1,182 @@
+[
+    {
+        "item_id":"501",
+        "product_name":"Apex Electronic Spec-501",
+        "category":"Electronics",
+        "brand":"Apex",
+        "price":33.46,
+        "sentiment_score":0.97,
+        "popularity_score":7.59
+    },
+    {
+        "item_id":"502",
+        "product_name":"Nova Home & Kitche Spec-502",
+        "category":"Home & Kitchen",
+        "brand":"Nova",
+        "price":55.65,
+        "sentiment_score":0.58,
+        "popularity_score":2.4
+    },
+    {
+        "item_id":"503",
+        "product_name":"Nova Fashio Spec-503",
+        "category":"Fashion",
+        "brand":"Nova",
+        "price":12.99,
+        "sentiment_score":0.92,
+        "popularity_score":6.41
+    },
+    {
+        "item_id":"504",
+        "product_name":"Echo Electronic Spec-504",
+        "category":"Electronics",
+        "brand":"Echo",
+        "price":71.56,
+        "sentiment_score":0.51,
+        "popularity_score":9.73
+    },
+    {
+        "item_id":"505",
+        "product_name":"Apex Beauty & Personal Car Spec-505",
+        "category":"Beauty & Personal Care",
+        "brand":"Apex",
+        "price":99.32,
+        "sentiment_score":0.6,
+        "popularity_score":2.64
+    },
+    {
+        "item_id":"506",
+        "product_name":"Vortex Beauty & Personal Car Spec-506",
+        "category":"Beauty & Personal Care",
+        "brand":"Vortex",
+        "price":20.13,
+        "sentiment_score":0.65,
+        "popularity_score":5.72
+    },
+    {
+        "item_id":"507",
+        "product_name":"Apex Electronic Spec-507",
+        "category":"Electronics",
+        "brand":"Apex",
+        "price":38.28,
+        "sentiment_score":0.64,
+        "popularity_score":6.51
+    },
+    {
+        "item_id":"508",
+        "product_name":"Nova Electronic Spec-508",
+        "category":"Electronics",
+        "brand":"Nova",
+        "price":17.51,
+        "sentiment_score":0.64,
+        "popularity_score":4.3
+    },
+    {
+        "item_id":"509",
+        "product_name":"Lumina Fashio Spec-509",
+        "category":"Fashion",
+        "brand":"Lumina",
+        "price":40.45,
+        "sentiment_score":0.88,
+        "popularity_score":2.8
+    },
+    {
+        "item_id":"510",
+        "product_name":"Apex Beauty & Personal Car Spec-510",
+        "category":"Beauty & Personal Care",
+        "brand":"Apex",
+        "price":46.1,
+        "sentiment_score":0.79,
+        "popularity_score":1.42
+    },
+    {
+        "item_id":"511",
+        "product_name":"Nova Beauty & Personal Car Spec-511",
+        "category":"Beauty & Personal Care",
+        "brand":"Nova",
+        "price":56.77,
+        "sentiment_score":0.58,
+        "popularity_score":1.59
+    },
+    {
+        "item_id":"512",
+        "product_name":"Vortex Beauty & Personal Car Spec-512",
+        "category":"Beauty & Personal Care",
+        "brand":"Vortex",
+        "price":158.68,
+        "sentiment_score":0.97,
+        "popularity_score":8.28
+    },
+    {
+        "item_id":"513",
+        "product_name":"Vortex Fashio Spec-513",
+        "category":"Fashion",
+        "brand":"Vortex",
+        "price":28.16,
+        "sentiment_score":0.55,
+        "popularity_score":7.16
+    },
+    {
+        "item_id":"514",
+        "product_name":"Zenith Beauty & Personal Car Spec-514",
+        "category":"Beauty & Personal Care",
+        "brand":"Zenith",
+        "price":39.0,
+        "sentiment_score":0.56,
+        "popularity_score":5.46
+    },
+    {
+        "item_id":"515",
+        "product_name":"Titan Electronic Spec-515",
+        "category":"Electronics",
+        "brand":"Titan",
+        "price":11.75,
+        "sentiment_score":0.95,
+        "popularity_score":3.33
+    },
+    {
+        "item_id":"516",
+        "product_name":"Echo Fashio Spec-516",
+        "category":"Fashion",
+        "brand":"Echo",
+        "price":64.31,
+        "sentiment_score":0.65,
+        "popularity_score":5.68
+    },
+    {
+        "item_id":"517",
+        "product_name":"Zenith Book Spec-517",
+        "category":"Books",
+        "brand":"Zenith",
+        "price":49.56,
+        "sentiment_score":0.59,
+        "popularity_score":9.73
+    },
+    {
+        "item_id":"518",
+        "product_name":"Nova Home & Kitche Spec-518",
+        "category":"Home & Kitchen",
+        "brand":"Nova",
+        "price":84.61,
+        "sentiment_score":0.96,
+        "popularity_score":9.05
+    },
+    {
+        "item_id":"519",
+        "product_name":"Titan Fashio Spec-519",
+        "category":"Fashion",
+        "brand":"Titan",
+        "price":55.55,
+        "sentiment_score":0.95,
+        "popularity_score":1.8
+    },
+    {
+        "item_id":"520",
+        "product_name":"Apex Home & Kitche Spec-520",
+        "category":"Home & Kitchen",
+        "brand":"Apex",
+        "price":20.91,
+        "sentiment_score":0.52,
+        "popularity_score":3.93
+    }
+]

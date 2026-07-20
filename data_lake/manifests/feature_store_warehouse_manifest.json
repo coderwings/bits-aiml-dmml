@@ -1,0 +1,11 @@
+{
+    "dataset_name": "feature_store",
+    "stage": "warehouse",
+    "file_path": "data_lake/feature_store.db",
+    "md5_checksum": "c6a8d6bbee0bdef50ba283c2ca667be1",
+    "size_bytes": 110592,
+    "row_count": null,
+    "transform_applied": "SQLite Aggregation Feature Store",
+    "timestamp": "2026-07-20T10:50:47.510945",
+    "version_tag": "v1.1784524847"
+}

@@ -1,0 +1,46 @@
+{
+    "pipeline": "RecoMart Recommendation Data Management Pipeline",
+    "last_updated": "2026-07-20T10:50:47.511195",
+    "lineage_nodes": [
+        {
+            "id": "raw_transactions",
+            "stage": "Data Ingestion",
+            "source": "Clickstream CSV",
+            "target": "prepared_transactions"
+        },
+        {
+            "id": "raw_metadata",
+            "stage": "Data Ingestion",
+            "source": "REST API / JSON Catalog",
+            "target": "prepared_items"
+        },
+        {
+            "id": "prepared_transactions",
+            "stage": "Data Preparation",
+            "transformations": "Null imputation, rating clamping [1-5], datetime parsing, interaction weighting",
+            "target": "user_features & item_cooccurrence"
+        },
+        {
+            "id": "prepared_items",
+            "stage": "Data Preparation",
+            "transformations": "MinMax price scaling, sentiment normalization, brand categorical encoding",
+            "target": "item_features"
+        },
+        {
+            "id": "feature_store_db",
+            "stage": "Feature Store & Warehouse",
+            "tables": [
+                "user_features",
+                "item_features",
+                "item_cooccurrence"
+            ],
+            "target": "recommendation_model_training"
+        },
+        {
+            "id": "svd_model_artifact",
+            "stage": "Model Training",
+            "algorithm": "Matrix Factorization SVD + Content-Based Filtering",
+            "target": "inference_api"
+        }
+    ]
+}
