@@ -7,45 +7,13 @@ A scalable, production-ready data management pipeline for **RecoMart** (e-commer
 ## Architecture Overview
 
 ```
-                      +------------------------------------------+
-                      |          Multi-Source Ingestion          |
-                      |  (Clickstream CSVs + Product REST API)   |
-                      +--------------------+---------------------+
-                                           |
-                                           v
-                      +--------------------+---------------------+
-                      |    Partitioned Raw Data Lake Storage |
-                      |    (data_lake/raw/year/month/day)        |
-                      +--------------------+---------------------+
-                                           |
-                                           v
-                      +--------------------+---------------------+
-                      |   Data Profiling & Quality Validation    |
-                      | (Schema, Nulls, Duplicates, Range)       |
-                      +--------------------+---------------------+
-                                           |
-                                           v
-                      +--------------------+---------------------+
-                      |     Data Cleaning & Preprocessing        |
-                      |  (Encoding, Scaling, EDA Figures)        |
-                      +--------------------+---------------------+
-                                           |
-                                           v
-                      +--------------------+---------------------+
-                      | Feature Engineering & Feature Store DB   |
-                      | (Offline Join + Online Point Lookup)     |
-                      +--------------------+---------------------+
-                                           |
-                                           v
-                      +--------------------+---------------------+
-                      | SVD Collaborative + Content Model Train  |
-                      | (Precision@K, Recall@K, NDCG@K, RMSE)    |
-                      +--------------------+---------------------+
-                                           |
-                                           v
-                      +--------------------+---------------------+
-                      |   Deployable Inference API Service       |
-                      +------------------------------------------+
+1. Multi-Source Data Ingestion (Transaction CSVs + Product REST API)
+2. Partitioned Raw Data Lake Storage (data_lake/raw/year/month/day)
+3. Data Profiling & Quality Validation  (Schema, Nulls, Duplicates, Range) 
+4. Data Cleaning & Preprocessing (Encoding, Scaling, EDA Figures)
+5. Feature Engineering & Feature Store DB (Offline Join + Online Point Lookup) 
+6. SVD Collaborative + Content Model Train (Precision@K, Recall@K, NDCG@K)
+7. Deployable Inference API Service
 ```
 
 ---
@@ -74,7 +42,6 @@ bits-aiml-dmml/
 │   ├── content_model.pkl               # Content-Based Cosine Similarity model
 │   └── model_registry.json             # Model hyperparameter & metric logs
 ├── reports/                            # Generated PDF & Markdown Deliverables
-│   ├── problem_formulation.pdf / .md
 │   ├── data_quality_report.pdf / .md
 │   ├── model_performance_report.pdf / .md
 │   └── figures/                        # EDA Visualizations (Interaction, Popularity, Sparsity)
@@ -104,7 +71,7 @@ bits-aiml-dmml/
 
 1. **Clone the Repository & Navigate to Folder:**
    ```bash
-   cd /Users/sagarkonde/bits-aiml-dmml
+   cd bits-aiml-dmml
    ```
 
 2. **Activate Virtual Environment:**
@@ -190,10 +157,9 @@ You can also run individual modules independently:
 ## Deliverable Reports & Artifacts
 
 All mandatory deliverables are saved in the `reports/` folder:
-1. `reports/problem_formulation.pdf` & `reports/problem_formulation.md`
-2. `reports/data_quality_report.pdf` & `reports/data_quality_report.md`
-3. `reports/model_performance_report.pdf` & `reports/model_performance_report.md`
-4. `reports/figures/`:
+1. `reports/data_quality_report.pdf` & `reports/data_quality_report.md`
+2. `reports/model_performance_report.pdf` & `reports/model_performance_report.md`
+3. `reports/figures/`:
    - `interaction_distribution.png`
    - `item_popularity.png`
    - `sparsity_heatmap.png`

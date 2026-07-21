@@ -17,7 +17,6 @@ from src.features.feature_store import RecoMartFeatureStore
 from src.versioning.data_versioning import run_versioning
 from src.model.train_evaluation import run_model_training
 from src.model.inference import RecommendationInferenceService
-from src.reports.pdf_generator import generate_problem_formulation_pdf
 
 # Ensure logs directory exists
 os.makedirs('logs', exist_ok=True)
@@ -62,35 +61,32 @@ class PipelineOrchestrator:
         self.pipeline_start_time = datetime.now()
         logger.info(f"Starting RecoMart Data Management & ML Pipeline Execution at {self.pipeline_start_time}")
 
-        # 1. Problem Formulation Deliverable Generation
-        self.execute_stage("01_Problem_Formulation", generate_problem_formulation_pdf)
+        # 1. Data Ingestion Stage
+        self.execute_stage("01_Data_Ingestion", run_ingestion)
 
-        # 2. Data Ingestion Stage
-        self.execute_stage("02_Data_Ingestion", run_ingestion)
+        # 2. Data Validation & Quality Profiling Stage
+        self.execute_stage("02_Data_Validation", run_validation)
 
-        # 3. Data Validation & Quality Profiling Stage
-        self.execute_stage("03_Data_Validation", run_validation)
+        # 3. Data Preparation & Cleaning Stage
+        self.execute_stage("03_Data_Preparation", run_preparation)
 
-        # 4. Data Preparation & Cleaning Stage
-        self.execute_stage("04_Data_Preparation", run_preparation)
+        # 4. Feature Engineering Stage
+        self.execute_stage("04_Feature_Engineering", run_feature_engineering)
 
-        # 5. Feature Engineering Stage
-        self.execute_stage("05_Feature_Engineering", run_feature_engineering)
+        # 5. Feature Store Sync Stage
+        self.execute_stage("05_Feature_Store_Sync", lambda: RecoMartFeatureStore())
 
-        # 6. Feature Store Sync Stage
-        self.execute_stage("06_Feature_Store_Sync", lambda: RecoMartFeatureStore())
+        # 6. Data Versioning and Lineage Stage
+        self.execute_stage("06_Data_Versioning", run_versioning)
 
-        # 7. Data Versioning and Lineage Stage
-        self.execute_stage("07_Data_Versioning", run_versioning)
+        # 7. Model Training & Evaluation Stage
+        self.execute_stage("07_Model_Training_Evaluation", run_model_training)
 
-        # 8. Model Training & Evaluation Stage
-        self.execute_stage("08_Model_Training_Evaluation", run_model_training)
-
-        # 9. Real-Time Inference Warm-up & Verification
+        # 8. Real-Time Inference Warm-up & Verification
         def test_inference():
             service = RecommendationInferenceService()
             return service.get_recommendations("1001", top_k=5)
-        self.execute_stage("09_Inference_Verification", test_inference)
+        self.execute_stage("08_Inference_Verification", test_inference)
 
         total_duration = round((datetime.now() - self.pipeline_start_time).total_seconds(), 2)
         logger.info(f"RECOMART PIPELINE EXECUTION COMPLETED SUCCESSFULLY IN {total_duration} SECONDS")
